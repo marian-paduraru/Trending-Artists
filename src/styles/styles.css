@@ -1,0 +1,85 @@
+.headerStyle{
+
+    font-family: Overlock SC;
+    font-size: 200px;
+    text-align: center;
+    color: cornsilk;
+    background:url(../images/COVER.jpg) ;
+    margin-bottom: 0px;
+    border: black;
+    border: 10px;
+    text-shadow:-7px -7px 0 #000;
+
+}
+
+.homeStyle{
+
+    font-family: fantasy;
+    font-size: 50px;
+    color:black;
+    background:url(../images/home_design.jpg);
+
+}
+
+.artistCard { 
+  margin: 30px ;
+  width: 300px;
+  height: 300px;
+  border-radius: 30px;
+  box-shadow: 5px 30px 30px 7px rgb(0, 0, 0), -5px -5px 30px 7px rgba(0,0,0,0.22);
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.artistCard:hover{ 
+    transform: scale(0.9, 0.9);
+    box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
+    -5px -5px 30px 15px rgba(0,0,0,0.22);
+}
+
+.cardName
+{
+    font-family: fantasy;
+    font-size: 20px;
+    margin: 0px;
+    color:white;
+    background:url(../images/card_design.jpg);
+}
+
+.container { 
+    z-index: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.homeBackground {
+background:url(../images/page_design.jpg);
+width: 100%;
+height:1600px;
+}
+
+.inputStyle
+{
+    width:99.5%;
+    height: 56px;
+    align-self: right;
+    border-radius: 10px;
+    position: relative;
+    background-color: rgba(255,255,255,0.3);
+    transition: 1s all;
+    font-family: Overlock SC;
+    text-indent: 3px;
+    font-size: 40px;
+    background-color: white;
+    outline:none;   
+    cursor: text;
+}
+.inputStyle:hover {
+    background-color: rgba(255, 255, 255, 0.45);
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.05);
+  }
+
+
+
